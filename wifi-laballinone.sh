@@ -496,7 +496,7 @@ network={
     ssid="HiddenLab"
     psk="SuperSecret123"
 
-    scan_ssid=1   # 🔥 REQUIRED
+    scan_ssid=1   #  REQUIRED
 
     proto=RSN
     key_mgmt=WPA-PSK
