@@ -552,7 +552,7 @@ EOF
     cat > "$CONF_DIR/07-hidden.conf" << EOF
 interface=$IF_HIDDEN
 driver=nl80211
-ssid=HiddenNetwork
+ssid=HiddenLabNet
 hw_mode=g
 channel=7
 macaddr_acl=0
