@@ -1,6 +1,6 @@
 ### Machine Name
 
-AirFu
+WiFu
 
 ### Release Date
 
