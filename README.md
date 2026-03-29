@@ -1,23 +1,9 @@
-### Machine Name
+### WiFu
 
-WiFu
+All three scripts should be in the following folder:
+/root/wifi
 
-### Release Date
-
-_No response_
-
-### Description
-
-# Use Wireless Card 14 for monitor mode (the others are being used for different types of attacks)
-
-Username and Password
-
-```
-kali
-kali
-```
-
-Kali has sudo rights so sudo su to become root
+From there you can load everything into Kali.
 
 Got into the /root/wifi folder 
 
@@ -60,9 +46,6 @@ Observe requests throughout an open network. You can obtain information such as 
 ### Target:
 CoffeeShop-FreeWiFi
 
-#### Flag Question:
-_None hit done_
-
 Hint 1: 
 
 ```
@@ -87,8 +70,6 @@ WPA-PSK-Lab
 #### Flag Question:
 What is the password found:
 
-wifi@2024
-
 Hint:
 
 ```
@@ -105,12 +86,6 @@ aireplay-ng -0 3 -a $WPA_BSSID -c $WPA_CLIENT wlan14
 ### Target
 ChallengeNet-WPA2
 
-#### Flag Question:
-What is the password found:
-
-WPA2SecretKey
-
-
 ## Challenge 4:
 ### Target
 ChallengeNet-WPA2
@@ -122,15 +97,9 @@ frame. No client or handshake needed. The AP alone provides enough data.
 
 This means we do not need to do a deauth attack against the AP.
 
-#### Flag Question:
-_None, user should just hit done_
-
 ## Challenge 5:
 ### Target
 SecureNet-WPA3
-
-#### What is the password found:
-WPA3TopSecret
 
 ## Challenge 6:
 ### Target
@@ -138,19 +107,9 @@ Airport-WPS
 
 When doing this you must start wps-proxy.py which is within the /root/wifi folder 
 
-### What is the pin found:
-12345670
-
-### What is the password found:
-Airport-WPS
-
 ## Challenge 7:
 ### Target
 Hidden Network <length:  0>
-
-### What is the hidden network name
-HiddenLabNet
-
 
 # Walkthrough
 
