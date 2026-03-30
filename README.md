@@ -8,7 +8,7 @@ From there you can load everything into Kali.
 Got into the /root/wifi folder 
 
 ```
-bash wifi-laballinone.sh
+bash wifi-laballinone.sh all
 ```
 
 ```
